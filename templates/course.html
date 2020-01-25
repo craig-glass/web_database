@@ -1,0 +1,11 @@
+{% extends "homepage.html" %}
+
+{% block content %}
+<button type="button"><a href="\modules">Modules</a></button>
+<ul>
+    {% for k,v,o in results1 %}
+    <li>{{ v,o }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

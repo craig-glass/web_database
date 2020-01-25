@@ -1,0 +1,11 @@
+{% extends "homepage.html" %}
+
+{% block content %}
+    <h1>If you can see this it has worked!!!</h1>
+
+    <ul>
+        {% for r in results %}
+            <li>{{ r }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
